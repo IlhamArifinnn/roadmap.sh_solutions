@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eaeaea;
+  padding: 1.5em;
+}
+
+nav .nav-links ul {
+  display: flex;
+  list-style: none;
+  gap: 2em;
+}
+
+nav .nav-links ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+main .hero {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main .hero p {
+  color: #837f7f;
+}
+
+hr {
+  margin: 1em auto;
+}
+
+main .info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+
+main .info .projects {
+  width: 20%;
+}
+main .info .projects h2 {
+  margin-bottom: 0.5em;
+}
+
+main .info .work-experience {
+  width: 25%;
+}
+main .info .work-experience h2 {
+  margin-bottom: 0.5em;
+}
+main .info .work-experience .work {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  margin-bottom: 2em;
+}
+
+main .info .work-experience .work a {
+  text-decoration: none;
+}
+
+main .info .education {
+  width: 25%;
+}
+main .info .education h2 {
+  margin-bottom: 0.5em;
+}
+
+main .info .education .courses {
+  margin: 1em auto;
+}
+main .info .education ul {
+  margin-left: 1.2em;
+}
+
+main .review-info {
+  width: 90%;
+  margin: auto 3em;
+}
+
+main .review-info .review {
+  display: flex;
+  margin: 2em auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .review-info .review .review-box {
+  border: 1px solid;
+  padding: 1.5em;
+  border-radius: 0.6em;
+  width: 25%;
+}
+main .review-info .review .review-box .reviewer {
+  color: #837f7f;
+  margin-top: 1em;
+}
+main .review-info .review .review-box .assistant {
+  color: #837f7f;
+}
+
+footer {
+  display: flex;
+  padding: 1.5em;
+  background-color: #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
