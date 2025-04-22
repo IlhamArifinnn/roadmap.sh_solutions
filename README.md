@@ -11,5 +11,8 @@ This repository contains front-end projects built following the [roadmap.sh](htt
       <li>  
               <a href="https://roadmap.sh/projects/basic-html-website">Basic HTML Website</a>
       </li>
+      <li>  
+              <a href="https://roadmap.sh/projects/portfolio-website">Personal Portfolio</a>
+      </li>
       
 </ul>
